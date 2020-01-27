@@ -17,7 +17,7 @@
         var tempValue = data['main']['temp'];
         name.textContent = nameValue;
         desc.textContent = descValue;
-        temp.textContent = tempValue-273.15;
+        temp.textContent = `${tempValue-273.15} °C`;
       }
     )
 

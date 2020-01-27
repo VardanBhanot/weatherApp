@@ -1,6 +1,39 @@
 body{
-    background: #ee9ca7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #4dfbb5;
+}
 
+.wrapper{
+    margin: 8% auto;
+    width: 50%;
+    height: 300px;
+    padding: 50px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #52ffc2, #45e2a3);
+    box-shadow: 30px 30px 60px #41d59a, 
+            -30px -30px 60px #59ffd0;
+}
+.wrapper input[type=text]{
+    padding: 10px;
+    display: block;
+    border: none;
+    width: 100%;
+    border-bottom: chartreuse;
+}
+
+.wrapper button{
+    border: none;
+    border-radius: 6px;
+    width: 100px;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.wrapper p{
+    text-align: center;
+    font-size: large;
+    text-decoration: whitesmoke;
+    text-transform: uppercase;
 }
