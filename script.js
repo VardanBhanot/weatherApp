@@ -7,7 +7,7 @@
   let desc = document.querySelector('.desc');
   let temp = document.querySelector('.temp');
   let sunrise = document.querySelector('.sunrise');
-  const key = config.WEATHER_KEY;
+  const key = 'd8cbffb4fff02bdd85b50c90da1022a3';
 
   button.addEventListener('click', function(){
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inputValue.value}&appid=${key}`)
