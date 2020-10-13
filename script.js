@@ -25,9 +25,10 @@
         const windValue = data['wind']['speed'];
         const sunriseValue = convertUnixTime(data.sys.sunrise);
         const sunsetValue = convertUnixTime(data.sys.sunset);
+        const tempCelsius =  Number.parseFloat(tempValue-273.15).toFixed(2);
         name.textContent = nameValue;
         desc.textContent = descValue;
-        temp.textContent = `${tempValue-273.15} °C`;
+        temp.textContent = `${tempCelsius} °C`;
         wind.textContent = windValue;
         sunrise.textContent = sunriseValue;
         sunset.textContent = sunsetValue;
